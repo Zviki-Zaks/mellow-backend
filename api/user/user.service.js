@@ -36,13 +36,6 @@ async function getById(userId) {
         const collection = await dbService.getCollection('user')
         const user = await collection.findOne({ _id: ObjectId(userId) })
         delete user.password
-
-        user.givenReviews = await reviewService.query({ byUserId: ObjectId(user._id) })
-        user.givenReviews = user.givenReviews.map(review => {
-            delete review.byUser
-            return review
-        })
-
         return user
     } catch (err) {
         logger.error(`while finding user ${userId}`, err)
@@ -77,7 +70,7 @@ async function update(user) {
             _id: ObjectId(user._id), // needed for the returnd obj
             username: user.username,
             fullname: user.fullname,
-            // img: user.img, // if we want to be able to add user images (perhaps even from webcam)
+            // imgUrl: user?.imgUrl || '',
         }
         const collection = await dbService.getCollection('user')
         await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
@@ -97,7 +90,6 @@ async function add(user) {
             fullname: user.fullname,
             imgUrl: user?.imgUrl || '',
             mentions: []
-            // img: user.img, // if we want to be able to add user images (perhaps even from webcam)
 
         }
         const collection = await dbService.getCollection('user')
@@ -121,9 +113,6 @@ function _buildCriteria(filterBy) {
                 fullname: txtCriteria
             }
         ]
-    }
-    if (filterBy.minBalance) {
-        criteria.score = { $gte: filterBy.minBalance }
     }
     return criteria
 }
