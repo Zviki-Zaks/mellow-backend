@@ -6,6 +6,6 @@ I created it with my team in 10 intense days.
 
 **Node.js** **express** **MongoDB - Atlas**
 
-The frontend repo: [Mellow-Frontend]()
+The frontend repo: [Mellow-Frontend](https://github.com/Zviki-Zaks/mellow-frontend)
 
 [See demo](https://mellow-project-manager.herokuapp.com/#/)
