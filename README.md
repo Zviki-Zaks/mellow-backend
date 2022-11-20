@@ -8,4 +8,4 @@ This app wase built in 10 intense days, by team of 3 developers.
 
 The frontend repo: [Mellow-Frontend](https://github.com/Zviki-Zaks/mellow-frontend)
 
-[See demo](https://mellow-project-manager.herokuapp.com/#/)
+[See demo](https://melloew-project-manager.onrender.com)
