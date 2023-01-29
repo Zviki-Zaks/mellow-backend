@@ -761,3 +761,6 @@
 12.5.2022, 18:23:23 - DEBUG - auth.service - login with username: Almog (sid: 5bcUrK7AoGm1hZegQGBXYs6bT8iUSPMc)
 12.5.2022, 18:23:24 - DEBUG - Setting (uIhGBSY_4K-_33BgAAB_) socket.userId = 627d266b5e89fd839490a173 
 12.5.2022, 18:25:44 - INFO - Req from: Almog Ben-Binyamin (sid: 5bcUrK7AoGm1hZegQGBXYs6bT8iUSPMc)
+12.5.2022, 20:53:11 - INFO - Req from: Almog Ben-Binyamin (sid: 5bcUrK7AoGm1hZegQGBXYs6bT8iUSPMc)
+15.5.2022, 13:25:44 - INFO - Req from: Almog Ben-Binyamin (sid: 5bcUrK7AoGm1hZegQGBXYs6bT8iUSPMc)
+29.1.2023, 10:24:14 - INFO - Server is running on port: 3030 
