@@ -764,3 +764,13 @@
 12.5.2022, 20:53:11 - INFO - Req from: Almog Ben-Binyamin (sid: 5bcUrK7AoGm1hZegQGBXYs6bT8iUSPMc)
 15.5.2022, 13:25:44 - INFO - Req from: Almog Ben-Binyamin (sid: 5bcUrK7AoGm1hZegQGBXYs6bT8iUSPMc)
 29.1.2023, 10:24:14 - INFO - Server is running on port: 3030 
+29.1.2023, 13:24:39 - DEBUG - auth.service - login with username: Guest (sid: HkkPI_DtZJlb724H2SC2QEcZVx29to5D)
+29.1.2023, 13:24:39 - ERROR - Failed to Login Invalid username or password (sid: HkkPI_DtZJlb724H2SC2QEcZVx29to5D)
+29.1.2023, 13:25:41 - DEBUG - auth.service - login with username: Guest (sid: HkkPI_DtZJlb724H2SC2QEcZVx29to5D)
+29.1.2023, 13:25:42 - ERROR - Failed to Login Invalid username or password (sid: HkkPI_DtZJlb724H2SC2QEcZVx29to5D)
+29.1.2023, 13:25:56 - DEBUG - auth.service - login with username: Zviki (sid: HkkPI_DtZJlb724H2SC2QEcZVx29to5D)
+29.1.2023, 13:25:56 - DEBUG - Setting (fKsIGuA-m7oe7mtIAABJ) socket.userId = 627d25365e89fd839490a171 
+29.1.2023, 13:32:18 - DEBUG - auth.service - login with username: Zviki (sid: HkkPI_DtZJlb724H2SC2QEcZVx29to5D)
+29.1.2023, 13:32:18 - DEBUG - Setting (fKsIGuA-m7oe7mtIAABJ) socket.userId = 627d25365e89fd839490a171 
+29.1.2023, 13:44:34 - DEBUG - auth.service - login with username: Guest (sid: HkkPI_DtZJlb724H2SC2QEcZVx29to5D)
+29.1.2023, 13:44:34 - ERROR - Failed to Login Invalid username or password (sid: HkkPI_DtZJlb724H2SC2QEcZVx29to5D)
